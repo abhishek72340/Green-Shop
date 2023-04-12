@@ -1,0 +1,582 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* **Footer-Parent container** */
+#footer-parent {
+    /* width: 100vw; */
+    /* height: 22rem; */
+    background-color: #060630;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+
+  
+  }
+  
+  /* **Footer-Content/Text** */
+  #footer {
+    display: flex;
+    gap: 8rem;
+    padding: 1.5rem;
+  }
+  
+  /* **Footer-Cart** */
+  #footer-cart {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    gap: 10px;
+  }
+  
+  /* **Footer return text** */
+  #footer-return-shop {
+    font-size: 14px;
+    cursor: pointer;
+  }
+  #footer-badge-cart {
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  /* **Footer Legal content/Text** */
+  #footer-legal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  /* **Footer Learn content/Text** */
+  #footer-learn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  /* **Footer Contact-US content/Text** */
+  #footer-greeners {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  /* **Footer Company content/Text** */
+  #footer-company {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  /* **Footer Address content/Text** */
+  #footer-address {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* **Footer All-Heading Text** */
+  .footer-heading {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  
+  /* **Footer Social-media Line(left & right)** */
+  #media-line {
+    display: flex;
+    gap: 3rem;
+    margin-left: 8.5rem;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+  }
+  #first-line {
+    width: 30rem;
+    height: 0.5px;
+    background-color: #fff;
+  }
+  #second-line {
+    width: 30rem;
+    height: 0.5px;
+    background-color: #fff;
+  }
+  
+  /* **Footer social media icons** */
+  .social-media {
+    display: flex;
+    gap: 2rem;
+    margin-top: -1.2rem;
+  }
+  .media-icons-color {
+    color: white;
+  }
+  
+  /* **Footer-Copyright Text** */
+  #copyright {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 4rem;
+    font-weight:500;
+  }
+  
+
+  /* **Responsive For Small Devices** */
+  @media (max-width:300px){
+    #media-line {
+      display: flex;
+      gap: 0.5rem;
+      margin-left: 1rem;
+      font-size: 10px;
+      margin-top: 0.5rem;
+    }
+    #first-line {
+      width: 5rem;
+      height: 0.5px;
+      background-color: #fff;
+    }
+    #second-line {
+      width: 5rem;
+      height: 0.5px;
+      background-color: #fff;
+    }
+    .social-media {
+      display: flex;
+      gap: 1rem;
+      margin-top: -0.5rem;
+    }
+    #copyright {
+      display: flex;
+      justify-content: center;
+      font-size: 8px;
+      margin-top: 2rem;
+      /* font-weight:500; */
+    }
+    #footer {
+      display: flex;
+      gap: 0.8rem;
+      padding: 1rem;
+    }
+   
+
+
+    #footer-cart {
+      display: flex;
+      flex-direction: column;
+      font-size: 10px;
+      gap: 4px;
+    }
+    
+    /* **Footer return text** */
+    #footer-return-shop {
+      font-size: 7px;
+      cursor: pointer;
+    }
+    #footer-badge-cart {
+      color: white;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+    
+    /* **Footer Legal content/Text** */
+    #footer-legal {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      cursor: pointer;
+      font-size: 7px;
+    }
+    
+    /* **Footer Learn content/Text** */
+    #footer-learn {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      cursor: pointer;
+      font-size: 7px;
+    }
+    
+    /* **Footer Contact-US content/Text** */
+    #footer-greeners {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      cursor: pointer;
+      font-size: 7px;
+    }
+    
+    /* **Footer Company content/Text** */
+    #footer-company {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      cursor: pointer;
+      font-size: 7px;
+    }
+    
+    /* **Footer Address content/Text** */
+    #footer-address {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      font-size: 7px;
+    }
+    
+    /* **Footer All-Heading Text** */
+    .footer-heading {
+      font-size: 10px;
+      font-weight: 500;
+    }
+   
+
+  }
+
+
+  /* **Responsive For Mobile** */
+  @media(min-width:300px) and (max-width:480px){
+
+    #media-line {
+      display: flex;
+      gap: 0.5rem;
+      margin-left: 1.6rem;
+      font-size: 12px;
+      margin-top: 1rem;
+    }
+    #first-line {
+      width: 7rem;
+      height: 0.5px;
+      background-color: #fff;
+    }
+    #second-line {
+      width: 7rem;
+      height: 0.5px;
+      background-color: #fff;
+    }
+    .social-media {
+      display: flex;
+      gap: 1rem;
+      margin-top: -0.7rem;
+    }
+    #copyright {
+      display: flex;
+      justify-content: center;
+      font-size: 10px;
+      margin-top: 2rem;
+    }
+    #footer {
+      display: flex;
+      gap: 0.8rem;
+      padding: 14px;
+    }
+   
+
+
+    #footer-cart {
+      display: flex;
+      flex-direction: column;
+      font-size: 10px;
+      gap: 8px;
+    }
+    
+    /* **Footer return text** */
+    #footer-return-shop {
+      font-size: 7px;
+      cursor: pointer;
+    }
+    #footer-badge-cart {
+      color: white;
+      font-size: 1.6rem;
+      cursor: pointer;
+    }
+    
+    /* **Footer Legal content/Text** */
+    #footer-legal {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      cursor: pointer;
+      font-size: 7px;
+    }
+    
+    /* **Footer Learn content/Text** */
+    #footer-learn {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      cursor: pointer;
+      font-size: 7px;
+    }
+    
+    /* **Footer Contact-US content/Text** */
+    #footer-greeners {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      cursor: pointer;
+      font-size: 7px;
+    }
+    
+    /* **Footer Company content/Text** */
+    #footer-company {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      cursor: pointer;
+      font-size: 7px;
+    }
+    
+    /* **Footer Address content/Text** */
+    #footer-address {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      font-size: 7px;
+    }
+    
+    /* **Footer All-Heading Text** */
+    .footer-heading {
+      font-size: 9px;
+      font-weight: 500;
+    }
+   
+  }
+
+
+  /* **Responsive For Tablet** */
+  @media(min-width:480px) and (max-width:769px){
+    #media-line {
+      display: flex;
+      gap: 0.5rem;
+      margin-left: 4rem;
+      font-size: 1.2rem;
+      margin-top: 1.5rem;
+    }
+    #first-line {
+      width: 12rem;
+      height: 0.5px;
+      background-color: #fff;
+    }
+    #second-line {
+      width: 12rem;
+      height: 0.5px;
+      background-color: #fff;
+    }
+    .social-media {
+      display: flex;
+      gap: 2rem;
+      margin-top: -1.2rem;
+    }
+    #copyright {
+      display: flex;
+      justify-content: center;
+      font-size: 12px;
+      margin-top: 2rem;
+    }
+    #footer {
+      display: flex;
+      gap: 3.5rem;
+      padding: 1.3rem;
+    }
+   
+
+
+    #footer-cart {
+      display: flex;
+      flex-direction: column;
+      font-size: 1rem;
+      font-weight: 500;
+      gap: 12px;
+    }
+    
+    /* **Footer return text** */
+    #footer-return-shop {
+      font-size: 10px;
+      cursor: pointer;
+    }
+    #footer-badge-cart {
+      color: white;
+      font-size: 2rem;
+      cursor: pointer;
+    }
+    
+    /* **Footer Legal content/Text** */
+    #footer-legal {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+    
+    /* **Footer Learn content/Text** */
+    #footer-learn {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+    
+    /* **Footer Contact-US content/Text** */
+    #footer-greeners {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+    
+    /* **Footer Company content/Text** */
+    #footer-company {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+    
+    /* **Footer Address content/Text** */
+    #footer-address {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      font-size: 12px;
+    }
+    
+    /* **Footer All-Heading Text** */
+    .footer-heading {
+      font-size: 1rem;
+      font-weight: 500;
+    }
+   
+
+  }
+
+  /* *Extra Large Tablet Design* */
+  @media(min-width:769px) and (max-width:1024px){
+
+    #media-line {
+      display: flex;
+      gap: 0.5rem;
+      margin-left: 5.5rem;
+      font-size: 1.2rem;
+      margin-top: 2rem;
+    }
+    #first-line {
+      width: 13rem;
+      height: 0.5px;
+      background-color: #fff;
+    }
+    #second-line {
+      width: 13rem;
+      height: 0.5px;
+      background-color: #fff;
+    }
+    .social-media {
+      display: flex;
+      gap: 2.5rem;
+      margin-top: -1.2rem;
+    }
+    #copyright {
+      display: flex;
+      justify-content: center;
+      font-size: 14px;
+      margin-top: 2rem;
+    }
+    #footer {
+      display: flex;
+      gap: 4rem;
+      padding: 1.5rem;
+    }
+   
+
+
+    #footer-cart {
+      display: flex;
+      flex-direction: column;
+      font-size: 1.2rem;
+      gap: 14px;
+    }
+    
+    /* **Footer return text** */
+    #footer-return-shop {
+      font-size: 12px;
+      cursor: pointer;
+    }
+    #footer-badge-cart {
+      color: white;
+      font-size: 2.5rem;
+      cursor: pointer;
+    }
+    
+    /* **Footer Legal content/Text** */
+    #footer-legal {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    
+    /* **Footer Learn content/Text** */
+    #footer-learn {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    
+    /* **Footer Contact-US content/Text** */
+    #footer-greeners {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    
+    /* **Footer Company content/Text** */
+    #footer-company {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    
+    /* **Footer Address content/Text** */
+    #footer-address {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      font-size: 13px;
+    }
+    
+    /* **Footer All-Heading Text** */
+    .footer-heading {
+      font-size: 1.2rem;
+    }
+
+  }
+
+  @media (min-width:1024px){
+
+  #media-line {
+      display: flex;
+      gap: 0.5rem;
+      margin-left: 3rem;
+      font-size: 1.2rem;
+      margin-top: 2rem;
+    }
+    #footer {
+      display: flex;
+      gap: 4rem;
+      padding: 3rem;
+    }
+  }

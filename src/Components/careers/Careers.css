@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#careers-main-header{
+    margin:5rem 3.5rem;
+    font-weight: 500;
+      font-size:2.2rem;
+      color:#060630;
+}
+#careers{
+    color:#060630;
+    margin:0 4rem
+}
+#job-seeker{
+    color:#060630;
+    margin:0 4rem
+}
+#apply-button{
+background-color: #060630;
+color: white;
+border: 1px solid #060630;
+border-radius: 4px;
+width: 7rem;
+height:2rem;
+text-align: center;
+}

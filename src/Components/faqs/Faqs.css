@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#faq-main-header{
+    margin:5rem 4rem;
+    font-weight: 500;
+      font-size:2.2rem;
+      color:#060630;
+}
+#faq-text{
+    color:#060630;
+    margin:0 4rem
+    
+}
+
+/* *Tablet Design* */
+@media (min-width:769px) and (max-width:1024px){
+    #faq-text{
+        color:#060630;
+        margin:0 4rem;
+        font-size: 1.3rem;
+        
+    }
+}

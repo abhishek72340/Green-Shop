@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#common-products {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 5.4rem;
+}
+
+#card {
+  width: 17rem;
+  height: 28rem;
+}
+#card-image {
+  display: flex;
+  justify-content: center;
+  margin-top: -1rem;
+}
+
+#images-in-card {
+  width: 15rem;
+  height: 15rem;
+}
+
+#microgreens-name {
+  display: flex;
+  justify-content: center;
+  margin-top: -1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#card-button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+#card-price-stock {
+  color: green;
+}
+#card-price-weight {
+  font-size: 14px;
+}
+#add-button {
+  height: 2rem;
+  width: 6rem;
+  background-color: #060630;
+  color: white;
+  border: 1px solid #060630;
+  font-size: 1.1rem;
+}
+#category {
+  margin-top: 14px;
+  color: green;
+  font-weight: 500;
+}
+
+/* *small devices Design * */
+@media screen and (max-width:300px){
+ #common-products {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 1rem;
+    gap: 1rem;
+  }
+  #card {
+    width: 7rem;
+    height: 12rem;
+  }
+  #images-in-card {
+    width: 5rem;
+    height: 5rem;
+  }
+  #card-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5rem;
+  }
+
+  #card-price-stock {
+    color: green;
+  }
+  #card-price-weight {
+    font-size: 8px;
+  }
+  #add-button {
+    height: 1rem;
+    width: 4rem;
+    background-color: #060630;
+    color: white;
+    border: 1px solid #060630;
+    font-size: 10px;
+  }
+  #category {
+    margin-top: 1px;
+    color: green;
+    font-size: 8px;
+  }
+  #microgreens-name {
+    display: flex;
+    justify-content: center;
+    margin-top: -1rem;
+    font-size: 9px;
+  }
+  #card-price-stock {
+    font-size: 10px;
+  }
+}
+@media (min-width: 300px) and (max-width: 480px) {
+  #common-products {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 0.1rem;
+    margin-left: 1rem;
+    gap: 1rem;
+  }
+  #card {
+    width: 9rem;
+    height: 12rem;
+  }
+  #images-in-card {
+    width: 6rem;
+    height: 6rem;
+  }
+  #card-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5rem;
+  }
+
+  #card-price-stock {
+    color: green;
+  }
+  #card-price-weight {
+    font-size: 8px;
+  }
+  #add-button {
+    height: 1rem;
+    width: 4rem;
+    background-color: #060630;
+    color: white;
+    border: 1px solid #060630;
+    font-size: 10px;
+  }
+  #category {
+    margin-top: 1px;
+    color: green;
+    font-size: 8px;
+  }
+  #microgreens-name {
+    display: flex;
+    justify-content: center;
+    margin-top: -1rem;
+    font-size: 9px;
+  }
+  #card-price-stock {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  #common-products {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 2.8rem;
+  }
+}
+
+@media (min-width:1024px){
+  #common-products {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    padding: 2rem 2rem;
+  }
+}

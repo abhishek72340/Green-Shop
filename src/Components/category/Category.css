@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#categories-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+  }
+  #first-four-category-container {
+    display: flex;
+    gap: 6rem;
+  }
+  .category-logo {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    cursor: pointer;
+  }
+  #second-four-category-container {
+    display: flex;
+    gap: 6rem;
+  }
+  
+  .category {
+    display: flex;
+    flex-direction: column;
+  }
+  .category-text{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1.9rem;
+
+  }
+  .categories-name {
+    margin-left: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+  }
+@media screen and (max-width:300px){
+    #categories-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.1rem;
+      }
+      #first-four-category-container {
+        display: flex;
+        gap: 1.5rem;
+      }
+      .category-logo {
+        border-radius: 50%;
+        width: 2rem;
+        height: 2rem;
+        cursor: pointer;
+      }
+      #second-four-category-container {
+        display: flex;
+        gap: 1.5rem;
+      }
+    
+      .category {
+        display: flex;
+        flex-direction: column;
+        font-size: 5px;
+      }
+      .categories-name {
+        margin-left: -0.1rem;
+        margin-top: -0.5rem;
+      }
+      .category-text {
+        font-size: 9px;
+      }
+}
+@media (min-width:300px) and (max-width:480px){
+    #categories-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.1rem;
+      }
+      #first-four-category-container {
+        display: flex;
+        gap: 1.5rem;
+      }
+      .category-logo {
+        border-radius: 50%;
+        width: 3rem;
+        height: 3rem;
+        cursor: pointer;
+      }
+      #second-four-category-container {
+        display: flex;
+        gap: 1.5rem;
+      }
+    
+      .category {
+        display: flex;
+        flex-direction: column;
+        font-size: 5px;
+      }
+      .categories-name {
+        margin-left: -0.1rem;
+        margin-top: -0.5rem;
+      }
+      .category-text {
+        font-size: 9px;
+        margin-left: 2rem;
+      }
+}
+@media (min-width:480px) and (max-width:769px){
+    #categories-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+      #first-four-category-container {
+        display: flex;
+        gap: 2rem;
+      }
+      .category-logo {
+        border-radius: 50%;
+        width: 6rem;
+        height: 6rem;
+        cursor: pointer;
+      }
+      #second-four-category-container {
+        display: flex;
+        gap: 2rem;
+      }
+    
+      .category {
+        display: flex;
+        flex-direction: column;
+        font-size: 8px;
+      }
+      .categories-name {
+        margin-top: -0.5rem;
+      }
+      .category-text {
+        font-size: 1rem;
+        margin-left: 2rem;
+      }
+}
+@media (min-width:769px) and (max-width:1024px){
+    #categories-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+      }
+      #first-four-category-container {
+        display: flex;
+        gap: 3rem;
+      }
+      .category-logo {
+        border-radius: 50%;
+        width: 8rem;
+        height: 8rem;
+        cursor: pointer;
+      }
+      #second-four-category-container {
+        display: flex;
+        gap: 3rem;
+      }
+    
+      .category {
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+      }
+      .categories-name {
+        margin-top: -0.5rem;
+      }
+      .category-text {
+        font-size: 1.5rem;
+        margin-left: 2rem;
+      }
+    
+}

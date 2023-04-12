@@ -1,0 +1,437 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html, body {max-width: 100%; overflow-x:hidden;}
+
+#loading{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* *Microgreen Product Design* */
+.microgreen-products {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 25%;
+  overflow-x: auto;
+  padding: 2rem;
+}
+::-webkit-scrollbar {
+  border-radius: 50%;
+}
+
+/* *Card-Images Design* */
+#products-list-container {
+  height: 90%;
+  width: 94%;
+  margin: 4rem 3.3rem;
+  background-color: white;
+}
+.add-cart-button {
+  height: 2rem;
+  width: 6rem;
+  background-color: #060630;
+  color: white;
+  border: 1px solid #060630;
+font-size: 1.1rem;
+
+
+
+  }
+.product-header {
+  margin: 0 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  width: 16rem;
+  height: 19rem;
+}
+.card-image {
+  display: flex;
+  justify-content: center;
+  margin-top: -1rem;
+}
+
+.images-in-card {
+  width: 13rem;
+  height: 12rem;
+}
+
+.microgreens-name {
+  display: flex;
+  justify-content: center;
+  margin-top: -1rem;
+font-family: Arial, Helvetica, sans-serif;}
+
+.card-button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.card-price-stock {
+  color: green;
+}
+.card-price-weight {
+  font-size: 14px;
+}
+
+
+
+
+/* *Features Design* */
+#features {
+  display: flex;
+  flex-direction: row;
+}
+.feature-image {
+  height: 80%;
+  width: 99%;
+}
+.feature-text {
+  display: flex;
+  justify-content: center;
+}
+/* **Responsive for Small Devices** */
+@media (max-width: 300px) {
+
+
+  /* *All microgreen Product's  Container* */
+  #products-list-container {
+    height: 90%;
+    width: 90%;
+    margin: 1rem 0.7rem;
+    background-color: white;
+  }
+ 
+ 
+
+  /* *Card-Design* */
+
+  .product-header {
+    margin: 0 0.1rem;
+    font-size: 9px;
+  }
+
+  .card {
+    width: 5rem;
+    height: 5rem;
+    margin-top: -1rem;
+  }
+  .card-image {
+    display: flex;
+    justify-content: center;
+    margin-top: -1rem;
+  }
+
+  .images-in-card {
+    width: 6rem;
+    height: 3.3rem;
+  }
+
+  .microgreens-name {
+    display: flex;
+    justify-content: center;
+    font-size: 5px;
+  }
+
+  .card-button {
+    margin-top: -0.4rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 8px;
+  }
+  .add-cart-button {
+    height: 15px;
+    width: 3rem;
+    font-size: 9px;
+    background-color: #060630;
+    color: white;
+    border: 1px solid #060630;
+  }
+
+  .card-price-stock {
+    color: green;
+  }
+  .card-price-weight {
+    font-size: 4px;
+  }
+  .card-price-stock {
+    font-size: 5px;
+  }
+
+  .microgreen-products {
+    display: flex;
+    gap: 1.2rem;
+  }
+
+  /* *Feature Design* */
+  .feature-text {
+    font-size: 9px;
+  }
+  .feature-image {
+    height: 80%;
+    width: 98%;
+  }
+}
+
+/* **Responsive for Mobille * */
+@media (min-width: 300px) and (max-width: 480px) {
+
+
+  /* *All microgreen Product's  Container* */
+  #products-list-container {
+    height: 90%;
+    width: 85%;
+    margin: 1rem 0rem;
+    background-color: white;
+  }
+  
+  
+
+  /* *Card-Design* */
+
+  .product-header {
+    margin: 0 2rem;
+    font-size: 9px;
+  }
+
+  .card {
+    width: 5rem;
+    height: 22rem;
+    margin-top: -1rem;
+  }
+  .card-image {
+    display: flex;
+    justify-content: center;
+    margin-top: -1rem;
+  }
+
+  .images-in-card {
+    width: 6rem;
+    height: 3.3rem;
+  }
+
+  .microgreens-name {
+    display: flex;
+    justify-content: center;
+    font-size: 5px;
+  }
+
+  .card-button {
+    margin-top: -0.4rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 8px;
+  }
+  .add-cart-button {
+    height: 15px;
+    width: 3rem;
+    font-size: 9px;
+    background-color: #060630;
+    color: white;
+    border: 1px solid #060630;
+  }
+
+  .card-price-stock {
+    color: green;
+  }
+  .card-price-weight {
+    font-size: 4px;
+  }
+  .card-price-stock {
+    font-size: 5px;
+  }
+
+  .microgreen-products {
+    display: flex;
+    gap: 1.2rem;
+  }
+
+  /* *Feature Design* */
+  .feature-text {
+    font-size: 9px;
+  }
+  .feature-image {
+    height: 80%;
+    width: 98%;
+  }
+}
+
+/** Responsive for Tablet** */
+@media (min-width: 480px) and (max-width: 769px) {
+
+
+  /* *All microgreen Product's  Container* */
+  #products-list-container {
+    height: 90%;
+    width: 90%;
+    margin: 1rem 0.7rem;
+    background-color: white;
+  }
+
+  
+
+  /* *Card-Design* */
+
+  .product-header {
+    margin: 0 2rem;
+    font-size: 1rem;
+  }
+
+  .card {
+    width: 9rem;
+    height: 9rem;
+    margin-top: -1rem;
+  }
+  .card-image {
+    display: flex;
+    justify-content: center;
+    margin-top: -1rem;
+  }
+
+  .images-in-card {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .microgreens-name {
+    display: flex;
+    justify-content: center;
+    font-size: 8px;
+  }
+
+  .card-button {
+    margin-top: -0.1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 8px;
+  }
+  .add-cart-button {
+    height: 16px;
+    width: 3rem;
+    font-size:10px ;
+    background-color: #060630;
+    color: white;
+    border: 1px solid #060630;
+  }
+
+  .card-price-stock {
+    color: green;
+  }
+  .card-price-weight {
+    font-size: 6px;
+  }
+  .card-price-stock {
+    font-size: 7px;
+  }
+
+  .microgreen-products {
+    display: flex;
+    gap: 2rem;
+  }
+
+  /* *Feature Design* */
+  .feature-text {
+    font-size: 1rem;
+  }
+  .feature-image {
+    height: 80%;
+    width: 98%;
+  }
+}
+
+/* *Extra Large tablet design* */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .carousel-image {
+    height: 7rem;
+    width: 38rem;
+    margin-left: 4rem;
+  }
+
+  /* *All microgreen Product's  Container* */
+  #products-list-container {
+    height: 90%;
+    width: 90%;
+    margin: 1rem 0.7rem;
+    background-color: white;
+  }
+
+ 
+  /* *Card-Design* */
+
+  .product-header {
+    margin: 0 2rem;
+    font-size: 1.5rem;
+  }
+
+  .card {
+    width: 11rem;
+    height: 10rem;
+    margin-top: -0.1rem;
+  }
+  .card-image {
+    display: flex;
+    justify-content: center;
+    margin-top: -1rem;
+  }
+
+  .images-in-card {
+    width: 9rem;
+    height: 9rem;
+  }
+
+  .microgreens-name {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+  }
+
+  .card-button {
+    margin-top: -0.1rem;
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 11px;
+  }
+  .add-cart-button {
+    height: 17px;
+    width: 3.5rem;
+    font-size: 11px;
+    background-color: #060630;
+    color: white;
+    border: 1px solid #060630;
+  }
+
+  .card-price-stock {
+    color: green;
+  }
+  .card-price-weight {
+    font-size: 9px;
+  }
+  .card-price-stock {
+    font-size: 10px;
+  }
+
+  .microgreen-products {
+    display: flex;
+    gap: 5rem;
+  }
+
+  /* *Feature Design* */
+  .feature-text {
+    font-size: 1.5rem;
+  }
+  .feature-image {
+    height: 80%;
+    width: 98%;
+  }
+}

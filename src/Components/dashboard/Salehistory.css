@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sale-history-navbar{
+    background-color: #060630;
+    height: 3rem;
+
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+th,td{
+    padding:1.5rem;
+
+}
+#sale-data-tabel{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+
+}
+.sale-image{
+    max-width: 40%;
+}
+
+/* Design For Small Devices! */
+@media  (max-width:300px){
+    #sale-history-navbar{
+        background-color: #060630;
+        height: 2.5rem;
+    
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+    th,td{
+        padding:7px;
+        font-size: 7.5px;
+    
+    }
+    #sale-data-tabel{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    
+    }
+    .sale-image{
+        max-width: 80%;
+    }
+}
+
+/* Design For Mobile! */
+@media (min-width:301px) and (max-width:480px){
+    th,td{
+        padding:7px;
+        font-size: 10px;
+    
+    }
+    #sale-data-tabel{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    
+    }
+    .sale-image{
+        max-width: 70%;
+    }
+}
+
+
+/* Design For Tablet! */
+@media (min-width:481px) and (max-width:769px){
+    #sale-history-navbar{
+        background-color: #060630;
+        height: 4rem;
+    
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8rem;
+    }
+    th,td{
+        padding:11px;
+        font-size:1rem;
+    
+    }
+    #sale-data-tabel{
+        display: flex;
+        justify-content: center;
+        padding: 5rem;
+    
+    }
+    .sale-image{
+        max-width: 70%;
+    }
+}
+@media (min-width:770px) and (max-width:1024px){
+    #sale-history-navbar{
+        background-color: #060630;
+        height: 5rem;
+    
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+    }
+    th,td{
+        padding:1rem;
+        font-size:1.3rem;
+    
+    }
+    #sale-data-tabel{
+        display: flex;
+        justify-content: center;
+        padding: 3rem;
+    
+    }
+    .sale-image{
+        max-width: 100%;
+    }
+}

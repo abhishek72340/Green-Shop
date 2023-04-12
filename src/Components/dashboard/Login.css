@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Forn Welcome Text Design! */
+#login-welcome {
+  display: flex;
+  flex-direction: column;
+  margin-left: -5.5rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+#text-under-welcome {
+  font-size: 1rem;
+}
+
+/* Login Form Overall Container Design! */
+#login-form-container {
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Login Form Dsign! */
+#login-form {
+  background: #060630;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 40rem;
+  width: 34rem;
+  box-shadow: 0px 0px 7px gray;
+  margin-top: 3rem;
+  align-items: center;
+  gap: 4rem;
+}
+label {
+  font-size: 1.2rem;
+}
+.login-field {
+  width: 14rem;
+  height: 2.2rem;
+  border-radius: 5px;
+}
+
+/* Login Button Design! */
+.login-button {
+  border-radius: 5px;
+  width: 14rem;
+  height: 2.2rem;
+  margin-top: -1rem;
+  font-size: 1.3rem;
+  margin-bottom: 7rem;
+  font-weight: 500;
+}
+
+/* Design OF Down Text Of Login Button!  */
+#have-account {
+  margin-top: -10rem;
+}
+#sign-up-text {
+  color: skyblue;
+  cursor: pointer;
+}
+
+
+/* Design For Mobile! */
+
+@media (max-width:480px){
+  #login-form {
+    background: #060630;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 30rem;
+    width: 20rem;
+    box-shadow: 0px 0px 7px gray;
+    margin-top: 3rem;
+    align-items: center;
+    gap: 4rem;
+  }
+}
+
+/* Design For Tablet! */
+@media (min-width:481px) and (max-width:769px){
+  #login-form {
+    background: #060630;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 30rem;
+    width: 20rem;
+    box-shadow: 0px 0px 7px gray;
+    margin-top: 3rem;
+    align-items: center;
+    gap: 4rem;
+  }
+}
+
+/* Design For Desktop! */
+@media (min-width:770px) and (max-width:1024px){
+  #login-form {
+    background: #060630;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 45rem;
+    width: 35rem;
+    box-shadow: 0px 0px 7px gray;
+    margin-top: 3rem;
+    align-items: center;
+    gap: 4rem;
+  }
+}

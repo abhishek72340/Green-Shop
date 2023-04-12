@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+#navbar-parent{
+    background-color: #060630;
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+
+   
+}
+#navbar-logo{
+    width:6rem;
+    height: 6rem;
+    cursor: pointer;
+}
+#avatar{
+    color: white;
+    font-size: 2rem;
+    margin-top: 5px;
+
+}
+
+#logout-button{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+
+}
+#avatar-cart-parent{
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+}
+#search-field{
+    width: 45rem;
+    height:2.5rem;
+    border-radius: 5px;
+    color:#060160 ;
+    border: 1px solid white;
+    caret-color: #060160;
+}
+
+::placeholder{
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+#cart{
+    color: white;
+     font-size:2rem;
+    margin-top:5px;
+  }
+  #navbar-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+       gap:3rem;
+     cursor: pointer;
+  
+ 
+  }
+  nav a{
+    color:white;
+    text-decoration: none;
+
+  }
+
+  /* **Side-nav */
+  #sidenav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    font-size: 1.3rem;
+    }
+  
+    #sidenav-close-icon{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    #sidenav{
+        display: none;
+    }
+    #sidenav-body{
+        width:12rem;
+        
+           }
+    #hamburger-icon{
+        color: white;
+        font-size: 1.5rem;
+        display: none;
+     
+    }
+
+    /* *Small Devices Design* */
+@media(max-width:300px){
+    #navbar-parent{
+        background-color: #060160;
+        height: 3rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+    }
+  
+    #navbar-list{
+               display: none;
+          }
+          #hamburger-icon{
+            display:block;
+        }
+        #navbar-logo{
+            display: none;
+           }
+    #search-field{
+        width: 7rem;
+        height:1.4rem;
+        border-radius: 5px;
+        color:#060160 ;
+        border: 1px solid white;
+        caret-color: #060160;
+    }
+
+    ::placeholder{
+        font-size: 0.5rem;
+        padding: 0.2rem;
+      
+    }
+    #avatar{
+        color: white;
+        font-size: 1rem;
+    
+    }
+    #avatar-cart-parent{
+        display: flex;
+        gap: 0.6rem;
+        
+    }
+  
+    #cart{
+        color: white;
+         font-size:1.2rem;
+      }
+    #logout-button{
+        font-size:8px;
+    }
+    #hamburger-icon{
+        font-size: 1rem;
+    }
+}
+
+
+/* *Mobile Design* */
+@media (min-width:300px) and (max-width:480px){
+    #navbar-parent{
+        background-color: #060160;
+        height: 5rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+        
+    }  #logout-button{
+        font-size: 14px;
+    }
+    #hamburger-icon{
+        display:block;
+    }
+  
+    #navbar-list{
+     
+         display: none;
+    
+      }
+      #navbar-logo{
+        display: none;
+    }
+    #search-field{
+        width: 10rem;
+        height:1.7rem;
+        border-radius: 5px;
+        color:#060160 ;
+        border: 1px solid white;
+        caret-color: #060160;
+        margin-left: -4rem;
+    }
+  
+    ::placeholder{
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+    #avatar{
+        color: white;
+        font-size: 1.4rem;
+    
+    }
+    #avatar-cart-parent{
+        display: flex;
+        gap: 0.9rem;
+        margin-left: -3rem;
+    }
+    #cart{
+        color: white;
+         font-size:1.3rem;
+      }
+      #navbar-logo{
+        width: 5rem;
+      }
+      #sidenav-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 1rem;
+       
+        }
+
+
+}
+
+
+/* *Tablet Design* */
+@media (min-width:481px) and (max-width:769px){
+
+    #search-field{
+        width: 20rem;
+        height:2.6rem;
+        border-radius: 5px;
+        color:#060160 ;
+        border: 1px solid white;
+        caret-color: #060160;
+    }
+
+    #hamburger-icon{
+        display:block;
+    }
+ 
+    #navbar-list{
+      
+         display: none;
+    
+      }
+      #navbar-logo{
+        display: none;
+    }
+    
+}
+
+/* *Extra Large Tablet* */
+@media(min-width:769px) and (max-width:1024px){
+    #search-field{
+        width: 25rem;
+        height:2.6rem;
+        border-radius: 5px;
+        color:#060160 ;
+        border: 1px solid white;
+        caret-color: #060160;
+    }
+  
+    #hamburger-icon{
+        display:none;
+    }
+    #navbar-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color:white;
+        gap:3rem;
+         cursor: pointer;
+          
+      }
+}
+

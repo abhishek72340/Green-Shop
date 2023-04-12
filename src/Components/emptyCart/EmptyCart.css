@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#empty-cart-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#empty-cart-shop-now-button {
+  background-color: #060630;
+  color: white;
+  width: 7rem;
+  height: 2.5rem;
+  font-size: 1.1rem;
+  border: 1px solid #060630;
+}

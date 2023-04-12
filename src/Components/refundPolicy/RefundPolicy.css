@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#refund-policy-main-header{
+    margin:5rem 3.5rem;
+    font-weight: 500;
+      font-size:2.2rem;
+      color:#060630;
+}
+
+#refund-policy{
+    color:#060630;
+    margin:0 4rem
+}
+/* *Tablet Design* */
+@media (min-width:769px) and (max-width:1024px){
+    #refund-policy{
+      font-size:1.2rem;
+        margin:0 4rem;
+    }
+}
