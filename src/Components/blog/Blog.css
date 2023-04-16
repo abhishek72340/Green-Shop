@@ -16,3 +16,16 @@
     height: 2.5rem;
     border: 1px solid #060630;
 }
+
+/* *Mobile Design* */
+@media (min-width:300px) and (max-width:480px){
+    #first-blog-image{
+        width:200px;
+    } 
+    #blog-first{
+        display: flex;
+        flex-direction: column;
+        padding: 3rem;
+        gap:2rem;
+    }
+}
