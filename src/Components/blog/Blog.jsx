@@ -9,9 +9,9 @@ export default function Blog(){
     return(
         <div>
             <div id='blog-first'>
-        <p><img src="/image/blog1-image.jpg" alt="microgreen" width='500' /></p>
+        <p><img src="/image/blog1-image.jpg" alt="microgreen" width='500' id='first-blog-image'/></p>
         <p>Microgreens are tiny plants that are harvested at the early stages of growth, typically within 7-21 days after germination. These young plants have been gaining popularity in recent years, and for good reason. They are not only visually appealing, but they also offer a wide range of nutritional and health benefits. Here are some of the key benefits of microgreens:<br/>
-        <button onClick={seeBlogOne} id='blog-one-button'>see more</button><br/>
+        <button onClick={seeBlogOne} id='blog-one-button' style={{opacity:blogOne?'0':'1'}}>see more</button><br/>
         <br/>
 
 {blogOne && <p>1. Rich in Nutrients: Microgreens are packed with a variety of vitamins and minerals, such as vitamin C, vitamin E, beta-carotene, and iron. In fact, some studies have found that microgreens can contain up to 40 times more nutrients than their mature counterparts.<br/>
