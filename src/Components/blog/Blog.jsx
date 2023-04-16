@@ -27,6 +27,9 @@ export default function Blog(){
 <br/>
 In conclusion, microgreens are a nutritious, versatile, and sustainable option for anyone looking to add more fresh produce to their diet. They are easy to grow and can be used in a variety of dishes, making them a great addition to any kitchen.</p>}</p>
 </div>
+
+ {/* Footer section */}
+  <Footer />
         </div>
     )
 }
