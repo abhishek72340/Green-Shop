@@ -57,6 +57,15 @@
   color: green;
   font-weight: 500;
 }
+#no-product{
+  font-size: 2rem;
+font-weight: 500;
+ display:flex ;
+ justify-content: center;
+ color: red;
+ width: 100vw;
+
+}
 
 /* *small devices Design * */
 @media screen and (max-width:300px){
