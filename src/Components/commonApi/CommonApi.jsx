@@ -14,7 +14,7 @@ export default function CommonApi() {
     <div id="common-microgreens">
       {/* Iterate Products of Common API */}
       <div id="common-products">
-        {filteredProducts.map((items) => {
+        { filteredProducts.length>0? filteredProducts.map((items) => {
           return (
             <div key={items.id} id="common-products">
               <Card id="card">
@@ -42,7 +42,7 @@ export default function CommonApi() {
               </Card>
             </div>
           );
-        })}
+        }) :<span id='no-product'><p>Product Not Found</p></span>}
       </div>
     </div>
   );
