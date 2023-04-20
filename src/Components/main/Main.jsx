@@ -359,7 +359,7 @@ export default function Main() {
           <div id="features">
             <span>
               <img
-                src="/image/features-01.jpg"
+                src="/image/Features-01.jpg"
                 alt="feature"
                 className="feature-image"
               />
