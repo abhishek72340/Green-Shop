@@ -359,18 +359,12 @@ export default function Main() {
           <div id="features">
             <span>
               <img
-                src="/image/feature-road.jpg"
+                src="/image/features-01.jpg"
                 alt="feature"
                 className="feature-image"
               />
             </span>
-            <span>
-              <img
-                src="/image/featureroad1.jpg"
-                alt="feature"
-                className="feature-image"
-              />
-            </span>
+          
           </div>
         </div>
       )}
