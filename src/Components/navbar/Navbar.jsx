@@ -49,7 +49,7 @@ export default function Navbar() {
    
           ></Offcanvas.Header>
           <Offcanvas.Body >
-            <nav id="sidenav-list">
+            <nav id="sidenav-list" style={{cursor:'pointer'}}>
               <p onClick={sideNav}>Home</p>
               <p onClick={()=>navigate('/blog')}>Blog</p>
               <p onClick={()=>navigate('about')}>About</p>
@@ -94,6 +94,7 @@ export default function Navbar() {
           ) : (
             <RxAvatar id="avatar" onClick={() => navigate("/userSignup")} />
           )}
+
 
           <Badge
             id="badge-cart"

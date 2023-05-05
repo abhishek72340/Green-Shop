@@ -29,7 +29,7 @@ import RefundPolicy from "./Components/refundPolicy/RefundPolicy";
 import HelpCenter from "./Components/helpCenter/HelpCenter";
 import Faqs from "./Components/faqs/Faqs";
 import Careers from "./Components/careers/Careers";
-import Team from "./Components/team/Team";
+// import Team from "./Components/team/Team";
 import Blog from './Components/blog/Blog';
 export default function App() {
   return (
@@ -72,7 +72,7 @@ export default function App() {
         <Route path="/helpcenter" element={<HelpCenter />}></Route>
         <Route path="/faqs" element={<Faqs />}></Route>
         <Route path="/careers" element={<Careers />}></Route>
-        <Route path="/team" element={<Team />}></Route>
+        {/* <Route path="/team" element={<Team />}></Route> */}
         <Route path="blog" element={<Blog/>}></Route>
       </Routes>
     </div>

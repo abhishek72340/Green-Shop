@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Banner Image Design */
+/* #banner-image{
+
+
+
+} */
+#get-listed{
+position: absolute;
+color: white;
+font-size: 4rem;
+font-weight: 700;
+margin: 19rem 0 0 10rem;
+word-spacing: 8px;
+color: white;
+z-index: 1;
+}
+#partner-with-avowal{
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: white;
+    word-spacing: 4px;
+margin: 17rem 0 0 10.5rem;
+z-index: 1;
+}
+#supplier-logo{
+    position: absolute;
+    z-index: 1;
+    margin: 2rem 0 0 7.8rem;
+}
+
+
+/* Design Of Benefit For Business */
+#svg-images{
+  display: flex;
+  justify-content:space-around ;
+  margin-top: 4rem;
+}
+#revenue-image{
+    width: 8rem; 
+}
+#brand-image{
+    width: 9rem;
+}
+#deliever-image{
+    width: 12rem;
+}
+#customer-image{
+    width: 8rem;
+}
+#text-under-svg{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+#started-step{
+    background:#060630;
+    height: 18rem;
+   
+    
+}
+#started-child{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+ 
+
+
+}
+
+/* Design Of Filling Form Step */
+#sign-up{
+    font-weight: 500;
+    font-size: 1.7rem;
+    
+}
+#sign-up-down-text{
+    font-size: 14px;
+
+}
+#set-up{
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+#set-up-down-text{
+    font-size: 14px;
+}
+#sell{
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+#sell-down-text{
+    font-size: 14px;
+}
+#get-started{
+    color: white;
+    font-size: 2.3rem;
+    font-weight: 700;
+    position: absolute;
+    word-spacing: 5px;
+margin: 1rem 9rem;
+}
+#sign-up-icon{
+    position: absolute;
+    font-size: 1.8rem;
+    margin-top: -5rem;
+}
+
+#set-up-icon{
+    font-size: 1.8rem;
+    position: absolute;
+ margin-left: -0.2rem;
+ margin-top: -5rem;
+}
+#sell-icon{
+    position: absolute;
+    font-size: 1.8rem;
+    margin-top: -5rem;
+}
+
+
+/* Design of Join US Button */
+#join-us{
+    display: flex;
+    justify-content: center;
+    
+}
+#join-button{
+ 
+    background:#060630;
+    color: white;
+    
+    height: 3rem;
+    width: 13rem;
+    font-size: 2rem;
+    cursor: pointer;
+  
+    border-radius: 5px;
+ 
+    transition: 0.3s;
+
+}
+#join-button:hover{
+    background:transparent;
+    transform: scale(1.1);
+    color:#060630
+}
+
+/* SVG Design For Mobile */
+#mobile-design-svg{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7rem;
+    margin-top: -2rem;
+  gap:4rem;
+
+
+}
+.mobile-design-text-SVG{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+  
+}
+
+/* Design For Small Devices */
+
+
+
+@media (max-width:300px){
+   
+  
+    #text-under-svg{
+        display: none;
+    }
+    #svg-images{
+        display: none;
+    }
+    #supplier-logo{
+        position: absolute;
+        z-index: 1;
+        margin: 0rem 0 0 1rem;
+        width: 12%;
+    }
+
+    #get-listed{
+        position: absolute;
+        color: white;
+        font-size: 0.8rem;
+       
+        
+        margin: 3.6rem 0 0 1.7rem;
+        
+        color: white;
+        z-index: 1;
+        }
+        #partner-with-avowal{
+            position: absolute;
+            font-size: 0.5rem;
+        
+            color: white;
+          
+        margin: 3rem 0 0 1.7rem;
+        z-index: 1;
+        }
+        #started-step{
+            background:#060630;
+            height: 18rem;
+           
+           
+            
+        }
+}
+
+/* Design For Mobile  */
+
+
+@media (min-width:300px) and (max-width:480px){
+ 
+    #text-under-svg{
+        display: none;
+    }
+    #svg-images{
+        display: none;
+    }
+    #supplier-logo{
+        position: absolute;
+        z-index: 1;
+        margin: 0rem 0 0 1rem;
+        width: 15%;
+    }
+    #get-listed{
+        position: absolute;
+        color: white;
+        font-size: 1.1rem;
+        font-weight: 500;
+        
+        margin: 5rem 0 0 2rem;
+        word-spacing: 5px;
+        color: white;
+                z-index: 1;
+        }
+        #partner-with-avowal{
+            position: absolute;
+            font-size: 0.7rem;
+         
+            color: white;
+            word-spacing: 4px;
+        margin: 4rem 0 0 2rem;
+        z-index: 1;
+        }
+        #get-started{
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 700;
+            position: absolute;
+            word-spacing: 5px;
+        margin: 1rem 0.5rem;
+        }
+}
+
+/* Design For Tablet */
+@media (min-width:480px) and (max-width:769px){
+    /* #text-under-svg{
+        display: none;
+    }
+    #svg-images{
+        display: none;
+    } */
+    #mobile-design-svg{
+        display: none;
+    }
+    .mobile-design-text-SVG{
+        display: none;
+    }
+   
+    #supplier-logo{
+        position: absolute;
+        z-index: 1;
+        margin: 0 0 0 1.5rem;
+        width: 15%;
+    }
+    #get-listed{
+        position: absolute;
+        color: white;
+        font-size: 1.7rem;
+        font-weight: 700;
+        
+        margin: 10rem 0 0 3.3rem;
+        word-spacing: 8px;
+        color: white;
+        z-index: 1;
+        }
+        #partner-with-avowal{
+            position: absolute;
+            font-size: 1rem;
+      
+            color: white;
+            word-spacing: 4px;
+        margin: 8.5rem 0 0 3.4rem;
+        z-index: 1;
+        }
+        #get-started{
+            color: white;
+            font-size: 1.8rem;
+            font-weight: 700;
+            position: absolute;
+            word-spacing: 5px;
+        margin: 1rem 0.5rem;
+        }
+}
+
+
+/* Design For Desktop Devices */
+@media (min-width:769px) and (max-width:1024px){
+    #mobile-design-svg{
+        display: none;
+    }
+    .mobile-design-text-SVG{
+        display: none;
+    }
+    #supplier-logo{
+        position: absolute;
+        z-index: 1;
+        margin: 0 0 0 1.5rem;
+        width: 15%;
+    }
+    #get-listed{
+        position: absolute;
+        color: white;
+        font-size: 1.9rem;
+        font-weight: 700;
+        
+        margin: 10.9rem 0 0 3.3rem;
+        word-spacing: 8px;
+        color: white;
+        z-index: 1;
+        }
+        #partner-with-avowal{
+            position: absolute;
+            font-size: 1.4rem;
+    
+            color: white;
+            word-spacing: 4px;
+        margin: 9rem 0 0 3.4rem;
+        z-index: 1;
+        }
+        #get-started{
+            color: white;
+            font-size: 1.9rem;
+            font-weight: 700;
+            position: absolute;
+            word-spacing: 5px;
+            margin: 1rem 0.5rem;
+        }
+}
+@media (min-width:1024px){
+    #mobile-design-svg{
+        display: none;
+    }
+    .mobile-design-text-SVG{
+        display: none;
+    }
+}

@@ -3,7 +3,7 @@ import React,{useState,useEffect} from 'react';
 import { useCart } from "../../context/cart-context";
 import { useNavigate } from "react-router-dom";
 import { BsInstagram } from "react-icons/bs";
-import { FaFacebookSquare } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
 import { ImYoutube } from "react-icons/im";
 import { FaLinkedin } from "react-icons/fa";
 import Badge from "@mui/material/Badge";
@@ -13,7 +13,7 @@ export default function Footer(){
       const navigate = useNavigate();
     const[cartNo,setCartNo]=useState(0);
 
-    const { addToCart,cartItems } = useCart();
+    const {cartItems } = useCart();
 
      // **No of cart-item length**
   useEffect(()=>{
@@ -127,16 +127,16 @@ export default function Footer(){
 
         {/* Social Media */}
         <span className="social-media">
-          <a href="https://www.instagram.com/avowalgreens/">
+          <a href="https://www.instagram.com/__abhisheksinghrana/?hl=en">
             <BsInstagram className="media-icons-color" />
           </a>
-          <a href="https://www.facebook.com/AvowalGreens/">
-            <FaFacebookSquare className="media-icons-color" />
+          <a href="https://github.com/abhishek72340">
+            <AiFillGithub className="media-icons-color" />
           </a>
-         <a href="https://youtu.be/9O8FnuINyxI">
+         <a href="https://www.youtube.com/channel/UCaAr4jWNJpMgwS52hxzfvHA">
             <ImYoutube className="media-icons-color" />
           </a> 
-          <a href="https://www.linkedin.com/company/avowal-greens/">
+          <a href="https://www.linkedin.com/in/abhishek-singh-rana-6354a9180/">
             <FaLinkedin className="media-icons-color" />
           </a>
         </span>
@@ -147,7 +147,7 @@ export default function Footer(){
 
       <span id="copyright">
         <span>
-          Copyright &copy; 2023 Avowal Anthra Pvt. Ltd. All rights reserved
+          Copyright &copy; 2023 Abhishek Singh Rana All rights reserved
         </span>
       </span>
     </div>

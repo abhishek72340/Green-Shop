@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* **Carousel Images Style** */
+.carousel-image {
+    height: 25rem;
+    width: 82rem;
+    margin-left: 5.5rem;
+  }
+.slide-images{
+    height:16rem;
+    width:100%;
+}
+#welcome-text{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+#welcome-browse-text{
+    margin-top: -1rem;
+}
+#welcome-browser-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+/* *Small-Devices Design* */
+@media screen and (max-width:300px){
+      /* *Carousel Design* */
+  .carousel-image {
+    height: 4rem;
+    width: 12rem;
+    margin-left: 2rem;
+  }
+    .slide-images{
+        height:7rem;
+        width:100%;
+    }
+    #welcome-text{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    #welcome-browse-text{
+        font-size: 8px;
+    }
+}
+
+/* *Mobile Design* */
+@media (min-width:300px) and (max-width:480px){
+    .slide-images{
+        height:10rem;
+        width:100%;
+    }
+    .carousel-image {
+        height: 8rem;
+        width: 18rem;
+    
+      }
+
+    #welcome-text{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    #welcome-browse-text{
+        font-size: 8px;
+    }
+} 
+
+/* *Talet Design* */
+@media (min-width:480px) and (max-width:769px){
+    .slide-images{
+        height:11rem;
+        width:100%;
+    }
+    .carousel-image {
+        height: 7rem;
+        width: 38rem;
+        margin-left: 4rem;
+      }
+    #welcome-text{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    #welcome-browse-text{
+        font-size: 12px;
+    }
+}
+
+/* *Extra Tablet* */
+@media (min-width:769px) and (max-width:1024px){
+    .slide-images{
+        height:13rem;
+        width:100%;
+    }
+    .carousel-image {
+        height: 25rem;
+        width: 48rem;
+      }
+    #welcome-text{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    #welcome-browse-text{
+        font-size: 12px;
+    }
+}

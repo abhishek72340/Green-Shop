@@ -1,5 +1,6 @@
 import './Blog.css';
 import React,{useState} from 'react';
+import Footer from "../footer/Footer";
 export default function Blog(){
     const[blogOne,setBlogOne]=useState(false);
 

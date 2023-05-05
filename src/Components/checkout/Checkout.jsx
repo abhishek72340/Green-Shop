@@ -24,9 +24,8 @@ export default function Checkout() {
                   <MDBCol>
                     <div className="d-flex gap-5" id='checkout-subtotal'>
                       <p>Subtotal</p>
-                      <p>₹23.49</p>
+                      <p>₹{cartItems.length>0?cartItems.reduce((acc,curr)=>acc+curr.price,0):null}</p> 
                     </div>
-
                     <div
                       className="d-flex gap-5 "
                       id='checkout-shipping'
@@ -42,7 +41,7 @@ export default function Checkout() {
                      id='checkout-total'
                     >
                       <p>Total</p>
-                      <p>₹26.48</p>
+                      <p>₹{cartItems.length>0?cartItems.reduce((acc,curr)=>acc+curr.price,0)+2.99:null}</p>
                     </div>
 
                     <MDBBtn id='checkout-button'>

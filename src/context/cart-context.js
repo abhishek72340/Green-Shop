@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useEffect } from "react";
+import { createContext, useContext, useState } from "react";
 import axios from "axios";
 
 import { ToastContainer, toast } from "react-toastify";
@@ -9,21 +9,22 @@ const CartContextProvider = ({ children }) => {
   const [cartItems, setCartItems] = useState([]);
 
   // ** cart-items Post in database**
-  const addToCart = async (item) => {
-    try {
-      const response = await fetch("http://localhost:4000/add-to-cart", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(item),
-      });
+  const addToCart =  (item) => {
+    // try {
+    //   const response = await fetch("http://localhost:4000/add-to-cart", {
+    //     method: "POST",
+    //     headers: {
+    //       "Content-Type": "application/json",
+    //     },
+    //     body: JSON.stringify(item),
+    //   });
 
-      const data = await response.json();
+    //   const data = await response.json();
       
-    } catch (error) {
-      throw new Error(error);
-    }
+    // } catch (error) {
+    //   throw new Error(error);
+    // }
+    
     setCartItems([item, ...cartItems]);
 
     // **Add-cart toastify Popup

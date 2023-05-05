@@ -3,11 +3,10 @@ import { useProductlist } from "../../context/productlist-context";
 import { useCart } from "../../context/cart-context";
 import Category from "../category/Category";
 import Footer from "../footer/Footer";
-import Slides from "../slide/Slides";
+import Slides from '../slide/Slide';
 import Popup from "../popup/Popup";
 
 import Card from "react-bootstrap/Card";
-
 export default function Main() {
   // **Cart-Context**
   const { addToCart } = useCart();

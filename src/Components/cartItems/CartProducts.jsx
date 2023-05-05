@@ -17,11 +17,18 @@ import {
 } from "mdb-react-ui-kit";
 
 export default function CartProducts() {
-  const [quantity, setQuantity] = useState(1);
+  const [quantity,setQuantity] = useState(1);
 
 
   // **cart-context**
   const { cartItems, removeFromCart } = useCart();
+
+
+ 
+   
+     
+
+ 
 
   return (
     <div>
@@ -92,6 +99,7 @@ export default function CartProducts() {
                             
                                 id='cart-product-quantity'
                                 defaultValue={quantity}
+                              //  onClick={()=>incrementQuantity(cartItems._id)}
                               />
 
                               <MDBBtn className="px-2" color="link">
