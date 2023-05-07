@@ -31,7 +31,7 @@ export default function UserSignup() {
     setMobile('');
   
     
-    const result = await fetch("http://localhost:4000/usersignup", {
+    const result = await fetch("https://green-shop-server-dfz5.onrender.com/usersignup", {
       method: "POST",
       body: JSON.stringify({ name,mobile, email, password }),
       headers: {
