@@ -21,7 +21,7 @@ const ProductlistContextProvider = ({ children }) => {
 const micro = async () => {
  
  const resp = await axios.get(
-   "http://localhost:4000/products/microgreen");
+   "https://green-shop-server-dfz5.onrender.com/products/microgreen");
   setCommon(resp.data);
   setIsLoading(false);
 
