@@ -46,7 +46,7 @@ export default function Contact() {
     setAddress("");
     setNumber("");
     setMessage("");
-    const response = await fetch("http://localhost:4000/contactus", {
+    const response = await fetch("https://green-shop-server-dfz5.onrender.com/contactus", {
       method: "POST",
       body: JSON.stringify({ fullname, email, address, number, message }),
       headers: {
